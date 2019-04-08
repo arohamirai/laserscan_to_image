@@ -1,0 +1,7 @@
+<launch>
+        <node pkg="laserscan_to_image" type="laserscan_to_image" name="laserscan_to_image" output="screen">
+                <param name="laserscan_topic" value="/scan" />
+                <param name="image_pub_topic" value="/laserscan_to_image/image" />
+                <param name="image_resolution" value="0.05" /> <!-- m -->
+        </node>
+</launch>
