@@ -12,9 +12,10 @@ roslaunch laserscan_to_image laserscan_to_image.launch
 # parameters
 
 **laserscan_topic**: Origin laser topic name, the data type is **sensor_msgs/LaserScan**.
-**image_pub_topic**: Converted laser date topic name to publish to, the data type is **sensor_msgs/Image**;
-**image_resolution**: The Converted resolution, the unit is meters per pix(m/pix);
 
+**image_pub_topic**: Converted laser date topic name to publish to, the data type is **sensor_msgs/Image**;
+
+**image_resolution**: The Converted resolution, the unit is meters per pix(m/pix);
 
 # demo
 Result will show as below.
